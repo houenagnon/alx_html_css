@@ -8,6 +8,12 @@ main{
     flex-direction: row;
 }
 
+main h1{
+    color: blue;
+}
+main h2{
+    color: rgb(97, 97, 133);
+}
 article{
     flex: 2;
     overflow-y: auto;
@@ -16,4 +22,5 @@ article{
 aside{
     flex: 1;
     overflow-y: auto;
+    color: rgb(97, 97, 133);
 }
