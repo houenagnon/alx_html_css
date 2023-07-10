@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif; 
+}
+
+/**Main******************/
+.main{
+    background-image: url(images/headphones_hero_1.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/** Header**/
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.header img{
+    height: 50px;
+    width: 200px;
+}
+.header-url{
+    display: flex;
+    justify-content: space-around;
+}
+.header-url li{
+ list-style: none;
+ padding: 10px;
+}
+
+.header-url a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.header-url a:hover{
+    color: #FF6565;
+}
+
+/** Main-other **/
+.main-other{
+    margin-top: 300px;
+    margin-left: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+    
+.main-other h1{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffff;
+}
+
+.main-other p{
+    font-size: 16px;
+    text-align: center;
+    color: #ffff;
+    line-height: 1.5;    
+}
+
+.main-other button{
+    width: 162px;
+    height: 44px;
+    background-color: #FF6565;
+    color: #ffff;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.main-other p:first-child{
+    font-size: 16px;
+}
