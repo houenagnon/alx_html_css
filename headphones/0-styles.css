@@ -12,6 +12,7 @@
     background-position: center;
     display: flex;
     flex-direction: column;
+    row-gap: 300px;
 }
 
 /** Header**/
@@ -38,7 +39,7 @@
 .header-url a{
     text-decoration: none;
     color: #ffff;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
 }
 
@@ -48,13 +49,13 @@
 
 /** Main-other **/
 .main-other{
-    margin-top: 300px;
-    margin-left: 340px;
+    
+    align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 650px;
 }
     
 .main-other h1{
@@ -81,9 +82,24 @@
     border-radius: 15px;
     font-weight: 700;
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+}
+
+.main-other button:hover{
+    opacity: 0.9;
 }
 
 .main-other p:first-child{
     font-size: 16px;
+}
+
+
+/*Mobile Specifique Configuration*/
+
+@media screen and  (max-width : 480px) {
+    h1{
+        color: rgb(66, 66, 83);
+        background-color: #FF6565;
+        font-size: 15px;
+    }
 }
