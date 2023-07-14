@@ -281,6 +281,33 @@
     border-radius: 50px;
 }
 
+footer{
+    background-image: url(images/footer_background.png);
+    background-size: cover;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .footer-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 600px;
+}
+
+footer .footer-icon-left{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+}
+
+
 /*Mobile Specifique Configuration*/
 
 @media screen and  (max-width : 480px) {

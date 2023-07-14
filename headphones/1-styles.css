@@ -162,9 +162,10 @@
 /*Mobile Specifique Configuration*/
 
 @media screen and  (max-width : 480px) {
+    p{
+        font-size: 10px;
+    }
     h1{
-        color: rgb(66, 66, 83);
-        background-color: #FF6565;
         font-size: 15px;
     }
 }
