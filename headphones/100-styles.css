@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif; 
+}
+
+/**Main******************/
+.main{
+    background-image: url(images/headphones_hero_1.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 300px;
+}
+
+/** Header**/
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.header img{
+    height: 50px;
+    width: 200px;
+}
+.header-url{
+    display: flex;
+    justify-content: space-around;
+}
+.header-url li{
+ list-style: none;
+ padding: 10px;
+}
+
+.header-url a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header-url a:hover{
+    color: #FF6565;
+}
+
+/** Main-other **/
+.main-other{
+    
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+}
+    
+.main-other h1{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffff;
+}
+
+.main-other p{
+    font-size: 16px;
+    text-align: center;
+    color: #ffff;
+    line-height: 1.5;    
+}
+
+.main-other button{
+    width: 162px;
+    height: 44px;
+    background-color: #FF6565;
+    color: #ffff;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.main-other button:hover{
+    opacity: 0.9;
+}
+
+.main-other p:first-child{
+    font-size: 16px;
+}
+
+
+/* What we do section */
+
+.what-do{
+    margin-top: 150px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 80px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 25px;
+    align-items: center;
+    width: 650px;
+}
+.description h1{
+    font-size: 32px;
+    text-align: center;
+    line-height: 36px;
+    color:#071629;
+}
+.description p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    color: #071629;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.unit-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.unit-icon h2{
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #071629;
+}
+
+.unit-icon p{
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #071629;
+}
+.unit-icon img{
+    width: 50px;
+    height: 50px;
+}
+
+.our-results{
+    background-image: url(images/headphones_hero_2.jpg);
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our-results h1{
+    font-size: 32px;
+    text-align: center;
+    line-height: 37px;
+    color:#FFFFFF;
+}
+#spec-p{
+    width: 650px; 
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color:#FFFFFF;
+    margin-bottom: 40px;
+}
+.our-results .description{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.our-results .pentagon {
+    width: 100px;
+    height: 0;
+    border-width: 50px 20px 0;
+    border-style: solid;
+    border-color: #FF6565 transparent;
+    /* transform: rotate(36deg); */
+  }
+
+.our-results .description1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* width: 200px;
+    height: 190px; */
+}
+
+
+.our-results .description1 h2{
+    margin-top: 25px;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.our-results .description1 p{
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+
+
+.contact-us {   
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-us h1 {
+    margin-bottom: 45px;
+    color: #071629;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.5px;
+}
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+
+}
+
+.contact-us form input{
+    width: 335px;
+    height: 25px;
+    margin-bottom: 20px;
+    color: #071629;
+    border: none; /* Supprime toutes les bordures */
+    border-bottom: 1px solid gray; /* Ajoute une bordure inférieure de 2 pixels de couleur rouge */
+    outline: none; /* Supprime l'effet de focus (contour) */
+}
+
+.contact-us form input::placeholder {
+    color: #071629; /* Couleur du texte du placeholder */
+    font-style: italic; /* Style du texte du placeholder */
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+  }
+
+.contact-us form button {
+    width: 160px;
+    height: 44px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #FF6565;
+    border: none;
+    border-radius: 50px;
+}
+
+footer{
+    background-image: url(images/footer_background.png);
+    background-size: cover;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .footer-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 600px;
+}
+
+footer .footer-icon-left{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+}
+
+
+/*Mobile Specifique Configuration*/
+
+@media screen and  (max-width : 480px) {
+    p{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 15px;
+    }
+}
