@@ -1,1 +1,0 @@
-This directory is mainly dedicated to python projects.
