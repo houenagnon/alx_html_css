@@ -1,0 +1,151 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* =======HEADER====== */
+
+header  {
+	background-image: url(./images/Object.png);
+	background-size: cover;
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 25px;
+	color: white;
+}
+
+/* Navigation Bar */
+.logo {
+	padding-top: 10px;
+	padding-left: 10px;
+	width: 15px;
+}
+.nav-bar ul {
+	display: flex;
+	gap: 30px;
+	list-style-type: none;
+}
+.nav-bar ul li a{
+	text-decoration: none;
+	color: white;	
+}
+
+/* Main Part of the header */
+.main_part {
+	text-align: center;
+	color: #ffffff;
+}
+button {
+	background-color: rgb(194, 113, 255);
+	color: #ffffff;
+	border-radius: 15px;
+	padding: 10px;
+	font-size: 7px;
+	box-shadow: none;
+	border: none;
+}
+h1 {
+	margin-bottom: 10px;
+	font-size: 60px;
+}
+.benefits {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	font-size:x-small;
+	margin-bottom: 30px;
+}
+
+/*Pros Section*/
+.pros {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 60px;
+	padding-bottom: 60px;
+}
+
+/* =====Quote==== */
+#quote {
+	background-color: rgb(194, 113, 255);
+	display: flex;
+	justify-content: space-between;
+	padding: 65px 85px 65px 85px;
+	color: #ffffff;
+}
+.quote p {
+	font-size: 15px;	
+}
+
+/* =========Tutorial Session======== */
+.tuto {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
+	gap: 5px;
+	align-content: space-evenly;
+}
+.rating {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.rating img {
+	height: 15px;
+}
+.mentor {
+	display: flex;
+	justify-content: flex-start;
+	gap: 20px;
+}
+
+/* ======MEMBERSHIP====== */
+#membership {
+	background-color: rgb(7, 22, 41);
+	color: #ffffff;
+	text-align: center;
+}
+.membership {
+	display: flex;
+	padding-bottom: 40px;
+}
+
+/* ======FAQ SESSION===== */
+.faq {
+	text-align: center;
+}
+.first-row {
+	display: flex;
+	width: 700px; 
+	padding-left: 120px;
+	gap: 100px;
+	
+	
+}
+.second-row {
+	display: flex;
+	padding-left: 120px;
+	width: 700px;
+	gap: 100px;
+}
+
+/* ===== FOOTER =====*/
+footer {
+	background-color: rgb(7, 22, 41);
+	text-align: center;
+	color: #ffffff;
+}
+.logo-and-handle {
+	display: flex;
+	gap: 50%;
+	justify-content: space-around;
+	padding-top: 30px;
+	justify-items: center;
+	
+}
+.logo-and-handle .social a{
+	padding: 5px;
+}
